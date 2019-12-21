@@ -1,2 +1,3 @@
 User-agent: *
-Allow: 
+Allow: /
+Sitemap: http://www.Kyun2da.github.io/sitemap.xml

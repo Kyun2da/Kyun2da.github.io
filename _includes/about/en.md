@@ -6,10 +6,10 @@
 
 > __`C`__  
 > __`C++`__  
-> __`JAVA`__
-> __`Python`__
-> __`JavaScript`__
-> __`Asm`__
+> __`JAVA`__   
+> __`Python`__  
+> __`JavaScript`__  
+> __`Asm`__  
 
 
 ##### 프로젝트 구경

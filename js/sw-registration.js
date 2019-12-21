@@ -49,7 +49,7 @@ if(navigator.serviceWorker){
       console.log("UPDATE_FOUND_BY_SW", data);
       createSnackbar({
         message: "내용이 업데이트 되었습니다.",
-        actionText:"갱신하시기바랍니다.",
+        actionText:"버튼을 눌러주세요",
         action: function(e){location.reload()}
       })
     }

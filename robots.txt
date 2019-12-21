@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
 Sitemap: http://www.Kyun2da.github.io/sitemap.xml
+Mozilla/5.0 (compatible; Yeti/1.1; +http://naver.me/spd)

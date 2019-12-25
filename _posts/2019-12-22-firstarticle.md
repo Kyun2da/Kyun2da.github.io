@@ -20,10 +20,11 @@ tags:
 - 공식 가이드: https://guides.github.com/features/mastering-markdown/
 
 ### 목차
-- [텍스트1 : 제목, 강조, 링크](./01_text.md)
-- [텍스트2 : 인용구, 코드](./02_text2.md)
-- [리스트와 테이블](./03_list.md)
-- [이미지와 이모티콘](./04_iamge.md)
+- [텍스트1 : 제목, 강조, 링크](https://kyun2da.github.io/2019/12/22/firstarticle/#11-%EC%A0%9C%EB%AA%A9-%EA%B0%95%EC%A1%B0headers)
+- [텍스트2 : 인용구, 코드](https://kyun2da.github.io/2019/12/22/firstarticle/#2%ED%85%8D%EC%8A%A4%ED%8A%B8-%EA%B4%80%EB%A0%A8-%EB%AC%B8%EB%B2%95-%EB%91%90%EB%B2%88%EC%A7%B8
+)
+- [리스트와 테이블](https://kyun2da.github.io/2019/12/22/firstarticle/#3-%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%99%80-%ED%85%8C%EC%9D%B4%EB%B8%94)
+- [이미지와 이모티콘](https://kyun2da.github.io/2019/12/22/firstarticle/#4-%EC%9D%B4%EB%AF%B8%EC%A7%80%EC%99%80-%EC%9D%B4%EB%AA%A8%ED%8B%B0%EC%BD%98-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0)
 
 
 # 1.텍스트 관련 문법

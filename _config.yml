@@ -2,9 +2,9 @@
 title: Kyun2Da Blog # 제목 들어가는곳
 SEOTitle: Kyun's 개발 기록일지
 header-img: img/home-bg.jpg # 홈 메인 베너화면
-email: Kyun2dot@gmail.com # 이메일
+email: kyun2dot@gmail.com # 이메일
 description: "Kyun's Tech Blog 궁금한게 있으면 들어오세요!"
-keyword: ""
+keyword: "허균, Kyun2da, React.js, Algorithm, web"
 url: "https://Kyun2da.github.io" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -19,7 +19,7 @@ github_username: Kyun2da
 #twitter_username:
 facebook_username: dkqnskdkqnsk
 #linkedin_username:  firstname-lastname-idxxxx
-
+email: kyun2dot@gmail.com
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge

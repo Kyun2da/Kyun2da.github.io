@@ -5,8 +5,8 @@ header-img: img/home-bg.jpg # 홈 메인 베너화면
 email: Kyun2dot@gmail.com # 이메일
 description: "Kyun's Tech Blog 궁금한게 있으면 들어오세요!"
 keyword: ""
-url: "https://Kyun2da.github.io"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+url: "https://Kyun2da.github.io" # your host, for absolute URL
+baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
@@ -15,24 +15,28 @@ future: true
 RSS: false
 #weibo_username:     huxpro
 #zhihu_username:     huxpro
-github_username:    Kyun2da
-#twitter_username:  
-facebook_username:  dkqnskdkqnsk
+github_username: Kyun2da
+#twitter_username:
+facebook_username: dkqnskdkqnsk
 #linkedin_username:  firstname-lastname-idxxxx
-
-
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+exclude:
+  [
+    "less",
+    "node_modules",
+    "Gruntfile.js",
+    "package.json",
+    "README.md",
+    "README.zh.md",
+  ]
+anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
-#timezone: CN  
-
-
+#timezone: CN
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
@@ -40,8 +44,8 @@ anchorjs: true                          # if you want to customize anchor. check
 # `$ gem install jekyll-paginate`
 plugins:
   - jekyll-paginate
-  - jemoji
-
+  #- jemoji
+  - jekyll-include-cache
 emoji:
   src: "https://github.githubassets.com/images/icons/"
 
@@ -51,7 +55,7 @@ emoji:
 # document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
+  input: GFM # use Github Flavored Markdown !important
   syntax_highlighter_opts:
     span:
       line_numbers: false
@@ -59,50 +63,35 @@ kramdown:
       line_numbers: true
       start_line: 1
 
-
-
 # Disqus settings
 disqus_username: Kyun2da
 
 # Netease settings
 netease_comment: false
 
-
-
 # Analytics settings
-# Baidu Analytics 
+# Baidu Analytics
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: 'UA-154921281-1'            # Format: UA-xxxxxx-xx
+ga_track_id: "UA-154921281-1" # Format: UA-xxxxxx-xx
 ga_domain: Kyun2da.github.io
 
-
-
 # Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "세종대학교 4학년 재학중<br>모든일에 최선을 다하자"
-sidebar-avatar: /img/kyun_profile.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
-
-
+sidebar: true # whether or not using Sidebar.
+sidebar-about-description: "세종대학교 4학년 재학중<br>Wanna be FullStack-Developer"
+sidebar-avatar: /img/kyun_profile.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
-
-
+featured-tags: true # whether or not using Feature-Tags
+featured-condition-size: 1 # A tag will be featured if the size of it is more than this condition value
 
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
 
-
-
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false
-
-
-
 # Friends
 # friends: [
 #     {

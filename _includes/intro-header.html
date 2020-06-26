@@ -40,6 +40,11 @@
                         <a class="tag" href="{{ site.baseurl }}/archive/?tag={{ tag | url_encode }}" title="{{ tag }}">{{ tag }}</a>
                         {% endfor %}
                     </div>
+                    <img
+          style="width: inherit;"
+          src="http://hits.dwyl.com/kyun2da.github.io{{ page.url }}.svg"
+          alt="hit count image"
+        />
                     <h1>{{ page.title }}</h1>
                     {% comment %} always create a h2 for keeping the margin {% endcomment %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>

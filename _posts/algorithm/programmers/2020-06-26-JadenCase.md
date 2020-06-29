@@ -16,6 +16,8 @@ tags:
 프로그래머스 level2 문제 `JadenCase 문자열 만들기`입니다.
 `Javascript`를 이용하여 해결하였습니다.
 
+- [출처](https://programmers.co.kr/learn/courses/30/lessons/12951){:target="\_blank"}
+
 ## 2️⃣문제 설명
 
 ![피보나치](/img/algorithm/jadencase.png)
@@ -71,6 +73,6 @@ const solution = (s) => {
 
 ## 6️⃣ 사용 문법
 
-- [charCodeAt](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt)
-- [toUpperCase](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase)
-- [toLowerCase](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase)
+- [charCodeAt](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt){:target="\_blank"}
+- [toUpperCase](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase){:target="\_blank"}
+- [toLowerCase](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase){:target="\_blank"}

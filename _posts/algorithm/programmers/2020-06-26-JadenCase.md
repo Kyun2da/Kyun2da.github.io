@@ -9,6 +9,7 @@ header-img: "img/post-bg-rwd.jpg"
 tags:
   - Algorithm
   - 프로그래머스
+  - 문자열
 ---
 
 ## 1️⃣서론
@@ -76,3 +77,10 @@ const solution = (s) => {
 - [charCodeAt](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt){:target="\_blank"}
 - [toUpperCase](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase){:target="\_blank"}
 - [toLowerCase](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase){:target="\_blank"}
+
+## 7️⃣ 마치며..
+
+질문과 지적은 환영합니다. 이 문제는 최적의 정답일 수도 아닐수도 있습니다.  
+궁금한게 있으시면 아래 댓글 남겨주세요.🙏  
+댓글은 저에게 큰 힘이 됩니다!  
+감사합니다. ❤️

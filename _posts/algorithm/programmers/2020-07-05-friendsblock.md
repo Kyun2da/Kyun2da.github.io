@@ -44,6 +44,7 @@ const solution = (m, n, board) => {
   //1. 먼저 배열의 문자열을 2차원 배열로 나눈다.
   board = board.map((v) => v.split(""));
 
+  //2. 배열에서 지워질 블록의 인덱스를 구해 arr안에 넣는다.
   while (true) {
     const arr = [];
     for (let i = 0; i < m - 1; i++) {

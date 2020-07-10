@@ -9,7 +9,6 @@ header-img: "img/post-bg-rwd.jpg"
 tags:
   - Algorithm
   - 프로그래머스
-  - 완전탐색
 ---
 
 ## 1️⃣서론

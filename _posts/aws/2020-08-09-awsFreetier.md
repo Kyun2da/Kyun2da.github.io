@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[아마존 ] aws 프리티어"
+title: "[아마존/AWS] 프리티어"
 subtitle: "서버를 무료로 사용하는 방법"
 date: 2020-08-09 18:00:00
 author: "Kyun2da"

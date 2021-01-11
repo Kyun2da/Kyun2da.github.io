@@ -1,13 +1,13 @@
 # Site settings
 title: Kyun2Da Blog # 제목 들어가는곳
-SEOTitle: Kyun's 개발 기록일지
+SEOTitle: Kyun2da Blog
 header-img: img/home-bg.jpg # 홈 메인 베너화면
 email: kyun2dot@gmail.com # 이메일
 description: "Kyun's Tech Blog 궁금한게 있으면 들어오세요!"
 keyword: "허균, Kyun2da, React.js, Algorithm, web"
 url: "https://Kyun2da.github.io" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
-
+teaser: img/Thumbnail.png
 # Publish posts or collection documents with a future date.
 future: true
 

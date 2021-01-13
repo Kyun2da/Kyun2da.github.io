@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "express https 설정하기"
-subtitle: "아마존 EC2에 express https 설정하기"
+title: 'express https 설정하기'
+subtitle: '아마존 EC2에 express https 설정하기'
 date: 2020-10-01 23:30:00
-author: "Kyun2da"
+author: 'Kyun2da'
 #header-style: text
-header-img: "img/post-bg-web.jpg"
+header-img: 'img/post-bg-web.jpg'
 tags:
   - backend
   - AWS
@@ -50,6 +50,13 @@ Let's Encrypt 사이트에 가보면 [링크](https://letsencrypt.org/ko/docs/cl
 
 서버 os 는 `ubuntu`를 사용한 점을 주의 해주세요.
 
+`준비물` :
+
+1. Standalone 방식을 사용하기 때문에 80포트나 443포트에 작동중인 사이트가 있다면 중지시켜야합니다.
+2. 리눅스 80포트와 443 포트가 열려있는지 확인합니다.
+
+`시작` :
+
 1. git과 파이썬을 설치합니다.( let's encrypt는 python 2.7을 선호한다고 합니다.)
 
    ```console
@@ -69,10 +76,22 @@ Let's Encrypt 사이트에 가보면 [링크](https://letsencrypt.org/ko/docs/cl
    $./letsencrypt-auto certonly
    ```
 
+   만약 여기서 certbot이 없다고 나온다면 certbot을 받아봅시다.
+
+   ```console
+   sudo apt-get install certbot
+   ```
+
+   그 후 다시 아래 명령어를 통해 standalone설정으로 들어갑니다.
+
+   ```console
+   sudo certbot certonly –standalone -d [도메인명]
+   ```
+
 4. 그 다음 여러가지 환경 설정을 해주어야 하는데요
    standalone 을 선택했고 약관 동의(A)를 하였으며 연락받을 이메일을 적으시면 됩니다.
 
-그리고 등록해놓은 도메인을 입력하시면 설정에 성공하게 됩니다.
+그리고 등록해놓은 도메인을 입력하시면 설정에 성공하게 됩니다.(Congratulations)가 뜨면 성공입니다.
 
 ## 4️⃣node.js 적용시키기
 
@@ -93,13 +112,13 @@ Let's Encrypt 사이트에 가보면 [링크](https://letsencrypt.org/ko/docs/cl
 2. app.js에 다음과 같은 코드를 입력합니다.
 
    ```js
-   require("greenlock-express")
+   require('greenlock-express')
      .init({
        packageRoot: __dirname,
-       configDir: "./greenlock.d",
+       configDir: './greenlock.d',
 
        // contact for security and critical bug notices
-       maintainerEmail: "jon@example.com",
+       maintainerEmail: 'jon@example.com',
 
        // whether or not to run at cloudscale
        cluster: false,

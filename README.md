@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ''
+title: '[백준 / Python] 5014 스타트링크'
 subtitle:
 date: 2021-04-02 15:00:00
 author: 'Kyun2da'

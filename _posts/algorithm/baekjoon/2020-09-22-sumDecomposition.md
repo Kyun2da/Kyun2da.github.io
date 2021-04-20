@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "[백준/Python] 2225 합분해"
-subtitle: "알고리즘 - 합분해"
+title: '[백준/Python] 2225 합분해'
+subtitle: '알고리즘 - 합분해'
 date: 2020-09-22 18:00:00
-author: "Kyun2da"
+author: 'Kyun2da'
 #header-style: text
-header-img: "img/post-bg-universe.jpg"
+header-img: 'img/post-bg-universe.jpg'
 tags:
   - Algorithm
   - 백준
@@ -44,7 +44,7 @@ $dp[k][n] = \sum_{l=0}^ndp[k-1][n-l]$
 
 이를 통해 보았을 때 n=2, k=3 은 (n=0,k=2), (n=1,k=2), (n=2,k=2) 의 합과 같다고 볼 수 있습니다.
 
-이는 다음과 같이 $O(\log{(K*N^2)})$으로 나타낼 수 있습니다.
+이는 다음과 같이 $O({K*N^2})$으로 나타낼 수 있습니다.
 
 ```python
 n, k = map(int,input().split())
